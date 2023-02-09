@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npm run build -ws",
+    "dev": "concurrently \"npm:dev:react\" \"npm:dev:vue3\"",
     "dev:react": "npm run dev -w @ma/finance-admin-react",
     "dev:vue3": "npm run dev -w @ma/finance-admin-vue3"
   },
@@ -12,5 +14,8 @@
   "license": "MIT",
   "workspaces": [
     "domains/*/*"
-  ]
+  ],
+  "dependencies": {
+    "concurrently": "7.6.0"
+  }
 }
