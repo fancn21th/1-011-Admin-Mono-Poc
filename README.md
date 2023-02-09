@@ -50,11 +50,12 @@
   ├── docs
   ├── domains
   │   └── finance
-  │       ├── finance-admin-react
-  │       └── finance-admin-vue3
+  │       ├── finance-admin-react   // react stack with multiple scenes
+  │       └── finance-admin-vue3    // vue3 stack with multiple scenes
   ├── package-lock.json
   ├── package.json
-  └── packages
+  └── packages                      // shared js libs
+    └── utils
   ```
 
 - how it is organized
