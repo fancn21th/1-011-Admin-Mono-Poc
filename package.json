@@ -8,15 +8,18 @@
     "build:react": "npm run build -w @ma/finance-admin-react",
     "build:vue3": "npm run build -w @ma/finance-admin-vue3",
     "build:utils": "npm run build -w @ma/utils",
+    "build:docs": "npm run build -w @ma/docs",
     "dev": "concurrently \"npm:dev:react\" \"npm:dev:vue3\" \"npm:dev:utils\"",
     "dev:utils": "npm run dev -w @ma/utils",
     "dev:react": "npm run dev -w @ma/finance-admin-react",
-    "dev:vue3": "npm run dev -w @ma/finance-admin-vue3"
+    "dev:vue3": "npm run dev -w @ma/finance-admin-vue3",
+    "dev:docs": "npm run dev -w @ma/docs"
   },
   "keywords": [],
   "author": "fancn21th <fancn21th@aliyun.com> (http://fancn21th.cn/)",
   "license": "MIT",
   "workspaces": [
+    "docs",
     "packages/*",
     "domains/*/*"
   ],

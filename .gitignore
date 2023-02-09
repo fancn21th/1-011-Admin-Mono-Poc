@@ -137,3 +137,11 @@ schema.graphql
 front-workspace.code-workspace
 .yarn
 .yarnrc
+
+
+############################
+# Vue Press
+############################
+
+.temp
+.cache
