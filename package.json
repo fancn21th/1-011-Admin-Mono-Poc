@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run build -ws",
+    "build:react": "npm run build -w @ma/finance-admin-react",
+    "build:vue3": "npm run build -w @ma/finance-admin-vue3",
+    "build:utils": "npm run build -w @ma/utils",
     "dev": "concurrently \"npm:dev:react\" \"npm:dev:vue3\"",
     "dev:react": "npm run dev -w @ma/finance-admin-react",
     "dev:vue3": "npm run dev -w @ma/finance-admin-vue3"
