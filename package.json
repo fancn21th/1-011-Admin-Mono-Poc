@@ -13,6 +13,7 @@
   "author": "fancn21th <fancn21th@aliyun.com> (http://fancn21th.cn/)",
   "license": "MIT",
   "workspaces": [
+    "packages/*",
     "domains/*/*"
   ],
   "dependencies": {
