@@ -1,1 +1,1 @@
-export const foo = "hello there!";
+export const foo = "I am from @ma/utils";
