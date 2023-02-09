@@ -2,7 +2,7 @@
 
 ## Folder Structure
 
-- print the folder structure with command `tree -L 3 -I node_modules`
+- print the folder structure with command `tree -L 3 -I node_modules` 🖥️ `mac`
 
 - how it is organized
 
