@@ -38,7 +38,11 @@
 
 ## Folder Structure
 
-- print the folder structure with command `tree -L 3 -I node_modules` 🖥️ `mac`
+- print the folder structure
+
+  - command # 🖥️ `mac`
+
+    - `tree -L 3 -I node_modules`
 
   ```shell
   .
