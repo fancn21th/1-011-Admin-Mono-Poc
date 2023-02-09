@@ -42,12 +42,15 @@
 
   - command # 🖥️ `mac`
 
-    - `tree -L 3 -I node_modules`
+    - `tree -L 3 -I 'node_modules|dist'`
 
   ```shell
   .
   ├── README.md
-  ├── docs
+  ├── docs                          // vuepress v2
+  │   ├── docs
+  │   │   └── README.md
+  │   └── package.json
   ├── domains
   │   └── finance
   │       ├── finance-admin-react   // react stack with multiple scenes
